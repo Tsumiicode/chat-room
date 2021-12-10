@@ -15,7 +15,7 @@ if(isset($_GET['logout'])){
 ?>
 <html>
 <head>
-	<title>Simple Chat Room</title>
+	<title>UTCP Chat Room</title>
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/style.css" />
 	<script type="text/javascript" src="js/jquery-1.10.2.min.js" ></script>
@@ -23,7 +23,7 @@ if(isset($_GET['logout'])){
 <body>
 <div class='header'>
 	<h1>
-		SIMPLE CHAT ROOM
+		UTCP Chat Room
 		<?php // Adding the logout link only for logged in users  ?>
 		<?php if(isset($_SESSION['username'])) { ?>
 			<a class='logout' href="?logout">Logout</a>
